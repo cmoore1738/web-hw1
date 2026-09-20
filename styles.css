@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 30px;
+    color: white;
+}
+
+#page-header {
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: white;
+    margin-top: 0;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #d4af37;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+#site-nav {
+    background-color: #1a1a1a;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#site-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a {
+    color: #d4af37;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+ul,
+ol {
+    line-height: 2;
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#welcome {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#contact img {
+    margin: 0 5px 0 0;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+        background-attachment: scroll;
+    }
+
+    #site-nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    #page-header,
+    #welcome,
+    .card {
+        padding: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
